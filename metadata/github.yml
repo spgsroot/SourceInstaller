@@ -1,0 +1,32 @@
+name: SourceInstaller
+description: The ultimate media installer for Reddit, Bunkr, Redgifs, and textboards/imageboards.
+homepage: ''
+license: MIT
+language: Dart
+platforms:
+  - Android
+topics:
+  - flutter
+  - android
+  - apk
+  - media-downloader
+  - reddit
+  - bunkr
+  - redgifs
+  - 4chan
+  - 2ch
+  - imageboard
+  - textboard
+supported_sources:
+  - Reddit
+  - Bunkr
+  - Redgifs
+  - 2ch
+  - 4chan
+  - 4channel
+  - Lainchan
+  - Endchan
+release_artifacts:
+  - build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+  - build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk
+  - build/app/outputs/flutter-apk/app-x86_64-release.apk
