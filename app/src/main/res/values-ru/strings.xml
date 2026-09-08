@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="analyze_tab">Анализ</string>
+    <string name="tasks_tab">Задачи</string>
+    <string name="log_tab">Лог</string>
+
+    <string name="url_field_label">URL ресурса</string>
+    <string name="url_field_hint">https://…</string>
+
+    <string name="only_video_filter">Только видео</string>
+    <string name="ignore_small_files_filter">Игнорировать файлы меньше 2 МБ</string>
+    <string name="download_limit_label">Лимит массовой загрузки</string>
+    <string name="download_limit_unlimited">Без лимита</string>
+    <string name="download_limit_files">%1$d файлов</string>
+
+    <string name="start_analysis_button">Начать анализ</string>
+    <string name="no_media_found">Медиа пока не найдено</string>
+    <string name="found_files">Найдено файлов: %1$d</string>
+    <string name="download_all_button">Скачать всё</string>
+    <string name="download_limited_button">Скачать %1$d</string>
+
+    <string name="preview_tooltip">Предпросмотр</string>
+    <string name="preview_title">Предпросмотр</string>
+    <string name="close_button">Закрыть</string>
+    <string name="download_tooltip">Скачать</string>
+    <string name="already_downloaded_tooltip">Уже скачано</string>
+    <string name="download_in_progress_tooltip">Загрузка уже идёт</string>
+
+    <string name="queue_empty">Очередь загрузок пуста</string>
+    <string name="pause_tooltip">Пауза</string>
+    <string name="resume_tooltip">Продолжить</string>
+    <string name="cancel_tooltip">Отмена</string>
+    <string name="queued_state">В очереди</string>
+    <string name="running_state">Загрузка</string>
+    <string name="paused_state">Пауза</string>
+    <string name="completed_state">Готово</string>
+    <string name="failed_state">Ошибка</string>
+    <string name="canceled_state">Отменено</string>
+
+    <string name="log_empty">Лог пуст</string>
+
+    <string name="captcha_required_title">Требуется WebView</string>
+    <string name="captcha_required_message">Откройте страницу в WebView ниже. Приложение продолжит анализ автоматически; если этого не произошло, повторите анализ вручную.</string>
+    <string name="retry_analysis_button">Повторить анализ</string>
+
+    <string name="preview_failed">Ошибка предпросмотра: %1$s</string>
+
+    <string name="notification_channel_downloads">Загрузки</string>
+    <string name="notification_running_title">SourceInstaller</string>
+    <string name="notification_running_text">Идёт загрузка: %1$d/%2$d • %3$d%%</string>
+    <string name="notification_complete_title">Все видео скачаны</string>
+    <string name="notification_complete_text">Скачано файлов: %1$d</string>
+    <string name="notification_error_title">Ошибка загрузки</string>
+    <string name="notification_error_text">Ошибок: %1$d из %2$d</string>
+    <string name="notification_paused_title">Загрузка на паузе</string>
+    <string name="notification_paused_text">Файл приостановлен</string>
+    <string name="notification_canceled_title">Загрузка отменена</string>
+    <string name="notification_canceled_text">Файл отменён</string>
+</resources>

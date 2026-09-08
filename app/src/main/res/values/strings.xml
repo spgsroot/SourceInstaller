@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">SourceInstaller</string>
+
+    <string name="analyze_tab">Analyze</string>
+    <string name="tasks_tab">Tasks</string>
+    <string name="log_tab">Log</string>
+
+    <string name="url_field_label">Resource URL</string>
+    <string name="url_field_hint">https://…</string>
+
+    <string name="only_video_filter">Video only</string>
+    <string name="ignore_small_files_filter">Ignore files smaller than 2 MB</string>
+    <string name="download_limit_label">Bulk download limit</string>
+    <string name="download_limit_unlimited">No limit</string>
+    <string name="download_limit_files">%1$d files</string>
+
+    <string name="start_analysis_button">Start analysis</string>
+    <string name="no_media_found">No media found yet</string>
+    <string name="found_files">Files found: %1$d</string>
+    <string name="download_all_button">Download all</string>
+    <string name="download_limited_button">Download %1$d</string>
+
+    <string name="preview_tooltip">Preview</string>
+    <string name="preview_title">Preview</string>
+    <string name="close_button">Close</string>
+    <string name="download_tooltip">Download</string>
+    <string name="already_downloaded_tooltip">Already downloaded</string>
+    <string name="download_in_progress_tooltip">Download in progress</string>
+
+    <string name="queue_empty">Download queue is empty</string>
+    <string name="pause_tooltip">Pause</string>
+    <string name="resume_tooltip">Resume</string>
+    <string name="cancel_tooltip">Cancel</string>
+    <string name="queued_state">Queued</string>
+    <string name="running_state">Downloading</string>
+    <string name="paused_state">Paused</string>
+    <string name="completed_state">Completed</string>
+    <string name="failed_state">Failed</string>
+    <string name="canceled_state">Canceled</string>
+
+    <string name="log_empty">Log is empty</string>
+
+    <string name="captcha_required_title">WebView required</string>
+    <string name="captcha_required_message">Open the page in the WebView below. The app will continue automatically; if it does not, retry analysis manually.</string>
+    <string name="retry_analysis_button">Retry analysis</string>
+
+    <string name="preview_failed">Preview failed: %1$s</string>
+
+    <string name="notification_channel_downloads">Downloads</string>
+    <string name="notification_running_title">SourceInstaller</string>
+    <string name="notification_running_text">Downloading: %1$d/%2$d • %3$d%%</string>
+    <string name="notification_complete_title">All files downloaded</string>
+    <string name="notification_complete_text">Files downloaded: %1$d</string>
+    <string name="notification_error_title">Download error</string>
+    <string name="notification_error_text">Failed: %1$d of %2$d</string>
+    <string name="notification_paused_title">Download paused</string>
+    <string name="notification_paused_text">A file was paused</string>
+    <string name="notification_canceled_title">Download canceled</string>
+    <string name="notification_canceled_text">A file was canceled</string>
+</resources>
